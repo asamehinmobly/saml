@@ -1,0 +1,31 @@
+{
+    "strict": true,
+    "debug": true,
+    "sp": {
+        "entityId": "https://staging-gateway.bolt-play.com/users-notification/sso/9445de632d31f18cc95f1b5127ae8401225db4646a5cc6dc9274bb57274828ab/directv/metadata",
+        "assertionConsumerService": {
+            "url": "https://staging-gateway.bolt-play.com/users-notification/sso/9445de632d31f18cc95f1b5127ae8401225db4646a5cc6dc9274bb57274828ab/directv?acs",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+        },
+        "singleLogoutService": {
+            "url": "https://staging-gateway.bolt-play.com/users-notification/sso/9445de632d31f18cc95f1b5127ae8401225db4646a5cc6dc9274bb57274828ab/directv?sls",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+        },
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+        "x509cert": "MIICjjCCAfegAwIBAgIBADANBgkqhkiG9w0BAQ0FADBkMQswCQYDVQQGEwJlZzENMAsGA1UECAwEb2hpbzEQMA4GA1UECgwHaW5tb2JseTEQMA4GA1UEAwwHaW5tb2JseTEiMCAGCSqGSIb3DQEJARYTc3VwcG9ydEBpbm1vYmx5LmNvbTAeFw0yMjAxMTExNDQyMzJaFw0zNTA5MjAxNDQyMzJaMGQxCzAJBgNVBAYTAmVnMQ0wCwYDVQQIDARvaGlvMRAwDgYDVQQKDAdpbm1vYmx5MRAwDgYDVQQDDAdpbm1vYmx5MSIwIAYJKoZIhvcNAQkBFhNzdXBwb3J0QGlubW9ibHkuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkFIxyvsnlRMlF8SgQtL6ru2tLartWNvvT7P4DS/KOTTKzv1XUFfPiIBJIGbx8P9eTAisVwqDt0FMpbt0UobiS1hP4qk81mTUKnOOJJokpKBzMbKSwwM/rADVC6rZX2rCpkHHKqMrYgt0X9gCyoyuIXbzs7OvvtrvnRLE7gf8ENwIDAQABo1AwTjAdBgNVHQ4EFgQUq/992O059va1Xb30h8Em+AF7t60wHwYDVR0jBBgwFoAUq/992O059va1Xb30h8Em+AF7t60wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOBgQBohfC7oxKSlKsXkYt0hxs2CeCF06gVtuTL3iwzaZUJKNhjDxTHTco4IyfTamrJrj/FC5UyhVb9merdorlXAaK34ZCs6BKqrlQsJB8nXFc2H+CbOi+pdkHQ8+gnIAsghLz+Ha7//F+JqnOF4CRZ0Id8ki0SbsT6Oin8pTaLVLjm3w==",
+        "privateKey": "MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAKQUjHK+yeVEyUXxKBC0vqu7a0tqu1Y2+9Ps/gNL8o5NMrO/VdQV8+IgEkgZvHw/15MCKxXCoO3QUylu3RShuJLWE/iqTzWZNQqc44kmiSkoHMxspLDAz+sANULqtlfasKmQccqoytiC3Rf2ALKjK4hdvOzs6++2u+dEsTuB/wQ3AgMBAAECgYAuS2nxOimG2aicZlVymTyvAZtdVQj0Y2EcQ2LMFVKjmd5zXsndpDACnh/qXfCTcgPmA5eadSao0r2UFCammpaTy8yT8w1Z0CcQdnCVr4CFYGdLpkVZq3/Sgu0KHBUlGm7OXAMRIJ3IRAKf7Z+wjX9Gwc9x5p937b2tKq5oIQt0kQJBANDdBUT0NZm5xrTZUAtBGSDGMPUqzcwtm+QKFzhyzMlkZEvMPwMNgiE2PubAxOCJ0B1Em2/WJ9gdUqDA3MNtUl8CQQDJHDTfPSqzllYzsyqqXL+Cefq8ugd+VtQJBx5yBYDM/XTQHGm/Fxt2Oe742sAK/F7XpmIZ5b8MNxDngaFGcg0pAkBIY3ICFgnFv8eIwpCldeh5nXc2YaF2FJClFoI5xEAJxMumIaHtMu9ZB24Bl+okUF9a5X5h4n1ov7D1miJpcShNAkEAlHh1dCXVI5Ymd66bHgCxBeOFv9Ta+WOi0DNoP6deanfnyEhhrUii5opoqWHdi367iht0q0fY3my81xz1cmt62QJAGFUF7jrUvCUUbZClYeQxes2UV+G2cK6KTC5aKcBTcZPLk0DiXQj7DLIRE9K2w/cTzbQlySra63saTjZeo9CNeQ=="
+    },
+    "idp": {
+        "entityId": "https://aisfrstage.directvla.com/openam",
+        "singleSignOnService": {
+            "url": "https://aisfrstage.directvla.com/openam/SSOPOST/metaAlias/ssla/idp",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+        },
+        "singleLogoutService": {
+            "url": "https://aisfrstage.directvla.com/openam/IDPSloRedirect/metaAlias/ssla/idp",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+        },
+        "NameIDFormat": "urn:oasis:names:tc:SAML:2.0:nameid-format:transient",
+        "x509cert": "MIIDYTCCAkmgAwIBAgIEFt4OQjANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVSzEQMA4GA1UE\nCBMHQnJpc3RvbDEQMA4GA1UEBxMHQnJpc3RvbDESMBAGA1UEChMJRm9yZ2VSb2NrMQswCQYDVQQL\nEwJBTTENMAsGA1UEAxMEdGVzdDAeFw0xODA0MDMxNDIwNThaFw0yODAzMzExNDIwNThaMGExCzAJ\nBgNVBAYTAlVLMRAwDgYDVQQIEwdCcmlzdG9sMRAwDgYDVQQHEwdCcmlzdG9sMRIwEAYDVQQKEwlG\nb3JnZVJvY2sxCzAJBgNVBAsTAkFNMQ0wCwYDVQQDEwR0ZXN0MIIBIjANBgkqhkiG9w0BAQEFAAOC\nAQ8AMIIBCgKCAQEAi7t6m4d/02dZ8dOe+DFcuUYiOWueHlNkFwdUfOs06eUETOV6Y9WCXu3D71db\nF0Fhou69ez5c3HAZrSVS2qC1Htw9NkVlLDeED7qwQQMmSr7RFYNQ6BYekAtn/ScFHpq8Tx4BzhcD\nb6P0+PHCo+bkQedxwhbMD412KSM2UAVQaZ+TW+ngdaaVEs1Cgl4b8xxZ9ZuApXZfpddNdgvjBeeY\nQbZnaqU3b0P5YE0s0YvIQqYmTjxh4RyLfkt6s/BS1obWUOC+0ChRWlpWE7QTEVEWJP5yt8hgZ5Me\ncTmBi3yZ/0ts3NsL83413NdbWYh+ChtP696mZbJozflF8jR9pewTbQIDAQABoyEwHzAdBgNVHQ4E\nFgQUDAvAglxsoXuEwI2NT1hFtVww2SUwDQYJKoZIhvcNAQELBQADggEBADiHqUwRlq1xdHP7S387\nvMLOr+/OUgNvDUogeyrpdj5vFve/CBxSFlcoY215eE0xzj2+bQoe5To3s8CWkP9hqB3EdhaRBfCr\nd8Vpvu8xBZcxQzmqwNjmeDrxNpKes717t05fDGgygUM8xIBs29JwRzHzf7e0ByJjn9fvlUjDAGZ7\nemCTN382F2iOeLC2ibVl7dpmsWZTINhQRbmq5L4ztOcjITk5WZnBF439oRRn68fWZVkOv2UqaKbk\nuMjgotNuot+ebHtOchEiwKz8VAK7O3/IgD6rfNBfz+c/WeoPcrfQBR4zfizw/ioR115RSywifzlw\nq5yziqyU04eP4wLr3cM="
+    }
+}
